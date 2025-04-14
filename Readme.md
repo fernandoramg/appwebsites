@@ -8,6 +8,7 @@
 - **React Native**
 - **Expo**
 
+Se realizo la distribución de los archivos para mejor ordenamientos y escabilidad si así lo desea, teniendo carpetas como: ***nagivation,components,screen***
 
 ### Ejecución
 
