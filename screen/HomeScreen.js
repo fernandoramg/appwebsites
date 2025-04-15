@@ -17,18 +17,18 @@ export default function HomeScreen(){
             //CONSUMIENDO LA API CON AXIOS
             //IMPORTANTE: Si es necesario remplazar por la ip 'localhost' de donde se ejecuta
             //const response = await axios.get('http://10.0.2.2:5127/api/sitestest', {
+            //La siguiente API 'https://api-websites.onrender.com/api/websites' esta deployada en producción puede consultarla si lo desea
             const response = await axios.get('https://api-websites.onrender.com/api/websites', {
                 headers: {
                     'Access-Control-Allow-Origin': '*'
                 }
             });
-            console.log(response.data)
             const dataResp = response.data
-            console.log(dataResp)
+            //console.log(dataResp)
             setData(dataResp)
             setLoading(false);
         } catch (error) {
-            console.log(error)
+            //console.log(error)
             setLoading(true);
         }
     }
