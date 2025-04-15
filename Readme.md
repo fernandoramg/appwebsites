@@ -12,7 +12,7 @@ Se realizo la distribución de los archivos para mejor ordenamientos y escabilid
 
 ### API
 
-Por favor revisar la función `getDataBack` donde se esta consumiendo la API del backend. 
+Por favor revisar la función `getDataBack` en `screen/HomeScreen` donde se esta consumiendo la API del backend. 
 
 Puede reemplazar la ip *http://10.0.2.2:5127* por su ip de localhost propia cuando este ejecutando el backend .NET Core.
 
