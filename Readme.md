@@ -10,6 +10,14 @@
 
 Se realizo la distribución de los archivos para mejor ordenamientos y escabilidad si así lo desea, teniendo carpetas como: ***nagivation,components,screen***
 
+### API
+
+Por favor revisar la función `getDataBack` donde se esta consumiendo la API del backend. 
+
+Puede reemplazar la ip *http://10.0.2.2:5127* por su ip de localhost propia cuando este ejecutando el backend .NET Core.
+
+O si lo desea seguir ocupando la API deployada en producción *https://api-websites.onrender.com/api/websites* esto puede tardar 1 minuto en obtener la data.
+
 ### Ejecución
 
 Por favor utilizar `npm run android` para ejecutar el proyecto.
